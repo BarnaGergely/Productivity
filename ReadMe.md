@@ -1,3 +1,7 @@
+# Hasznos gyorsbillentyűk és billentyűparancsok programozóknak
+
+
+
 # Esential Keyboard Shortcuts for Programmers
 
 Handy reference of essential keyboard shortcuts for Windows, Visual Studio Code, popular text editors, Google Chrome, and . Speed up your coding and boost you productivity!
