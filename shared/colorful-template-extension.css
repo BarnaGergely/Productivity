@@ -1,0 +1,21 @@
+#windows {
+    --clr-table-highlight: rgb(0, 68, 255);
+}
+
+#chrome {
+    --clr-table-highlight: rgb(255, 81, 0);
+}
+
+#vs-code {
+    --clr-table-highlight: rgb(0, 132, 194);
+}
+
+th {
+    color: var(--clr-table-highlight);
+}
+
+/*
+tr:nth-child(even) {
+    background-color: var(--clr-table-highlight);
+}
+    */

@@ -1,5 +1,8 @@
+/*@import "colorful-template-extension.css";*/
+
 :root {
     font-size: 10px;
+    --clr-table-highlight: #c0c0c0;
 }
 
 * {
@@ -7,8 +10,6 @@
     padding: 0;
     margin: 0;
 }
-
-
 
 html {
     font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +34,7 @@ h6 {
 }
 
 .container {
-    columns: 5;
+    columns: 4;
     gap: 1.5rem;
     margin: 0.3rem;
 }
@@ -41,8 +42,8 @@ h6 {
 table {
     width: 100%;
     border-collapse: collapse;
-    border: solid #c0c0c0 1px;
-    margin-bottom: 1rem;
+    border: solid var(--clr-table-highlight) 2px;
+    margin-bottom: 1.5rem;
     /*break-inside: avoid;*/
 }
 
@@ -78,7 +79,7 @@ tbody tr:nth-last-of-type(2) {
 }
 
 tbody tr:nth-last-of-type(1) {
-    break-before:avoid;
+    break-before: avoid;
 }
 
 /*TODO: Avoid break after thead, before tbody */
@@ -86,6 +87,10 @@ tbody tr:nth-last-of-type(1) {
 
 h3 {
     display: none;
+}
+
+#vs-code {
+    break-after: always;
 }
 
 /*

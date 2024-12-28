@@ -160,9 +160,9 @@ Ctrl+Home         | Go to beginning of file
 Ctrl+End          | Go to end of file
 Ctrl+↑ / ↓        | Scroll line up/down
 Alt+PgUp / PgDn   | Scroll page up/down
-Ctrl+Shift+Ó      | Fold (collapse) region
+Ctrl+Shift+Ő      | Fold (collapse) region
 Ctrl+Shift+Ú      | Unfold (uncollapse) region
-Ctrl+K Ctrl+Ó     | Fold (collapse) all subregions
+Ctrl+K Ctrl+Ő     | Fold (collapse) all subregions
 Ctrl+K Ctrl+Ú     | Unfold (uncollapse) all subregions
 Ctrl+K Ctrl+0     | Fold (collapse) all regions
 Ctrl+K Ctrl+J     | Unfold (uncollapse) all regions
