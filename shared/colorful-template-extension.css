@@ -12,7 +12,7 @@
 
 th {
     color: var(--clr-table-highlight);
-}
+}   
 
 /*
 tr:nth-child(even) {
